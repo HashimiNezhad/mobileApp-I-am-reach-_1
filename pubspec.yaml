@@ -1,0 +1,19 @@
+name: i_am_rich
+description: A Flutter project to display "I Am Rich" message with an image.
+
+# Flutter version and environment
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/images/diamond.jpg
